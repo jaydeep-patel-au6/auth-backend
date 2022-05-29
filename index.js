@@ -14,7 +14,7 @@ connection();
 app.use(express.json());
 app.use(cors());
 
-app.get("/", (req, res) => res.send("hello world!!!!!!"));
+app.get("/", (req, res) => res.send("test route for auth..........!!!!!!!!!!!!!"));
 
 // routes
 app.use("/api/users", userRoutes);
